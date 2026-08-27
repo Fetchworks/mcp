@@ -20,7 +20,7 @@
       "environmentVariables": [
         {
           "name": "APIFY_TOKEN",
-          "description": "Apify API token (free at console.apify.com/settings/integrations). Transcript extraction is billed to your Apify account at $5 per 1,000 delivered transcripts.",
+          "description": "Apify API token (free at console.apify.com/settings/integrations). Transcript extraction is billed to your Apify account at $2 per 1,000 delivered transcripts.",
           "isRequired": true,
           "isSecret": true
         }

@@ -2,7 +2,7 @@
 
 An MCP server that gives AI agents YouTube transcripts — from single videos, whole channels, and YouTube search — with timestamped segments, plain text, SRT, and VTT.
 
-The server is a thin client for the [Fetchworks YouTube Transcript Scraper](https://apify.com/fetchworks/youtube-transcript-scraper) on Apify. The extraction runs on Apify's infrastructure; you bring your own Apify token. Pricing is $5 per 1,000 transcripts — only delivered transcripts are billed. Failed videos (no captions, blocked, unavailable) cost nothing.
+The server is a thin client for the [Fetchworks YouTube Transcript Scraper](https://apify.com/fetchworks/youtube-transcript-scraper) on Apify. The extraction runs on Apify's infrastructure; you bring your own Apify token. Pricing is $2 per 1,000 transcripts — only delivered transcripts are billed. Failed videos (no captions, blocked, unavailable) cost nothing.
 
 Get a token by [signing up at apify.com](https://console.apify.com/sign-up) (free tier included), then copy it from [console.apify.com/settings/integrations](https://console.apify.com/settings/integrations).
 
