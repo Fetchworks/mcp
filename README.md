@@ -1,4 +1,4 @@
-# @fetchworks/mcp
+# fetchworks-mcp
 
 An MCP server that gives AI agents YouTube transcripts — from single videos, whole channels, and YouTube search — with timestamped segments, plain text, SRT, and VTT.
 
@@ -29,7 +29,7 @@ Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
   "mcpServers": {
     "youtube-transcripts": {
       "command": "npx",
-      "args": ["-y", "@fetchworks/mcp"],
+      "args": ["-y", "fetchworks-mcp"],
       "env": {
         "APIFY_TOKEN": "your-apify-token"
       }
@@ -41,7 +41,7 @@ Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
 ### Claude Code
 
 ```bash
-claude mcp add youtube-transcripts --env APIFY_TOKEN=your-apify-token -- npx -y @fetchworks/mcp
+claude mcp add youtube-transcripts --env APIFY_TOKEN=your-apify-token -- npx -y fetchworks-mcp
 ```
 
 ### Cursor
@@ -53,7 +53,7 @@ Add to `~/.cursor/mcp.json` (or `.cursor/mcp.json` in your project):
   "mcpServers": {
     "youtube-transcripts": {
       "command": "npx",
-      "args": ["-y", "@fetchworks/mcp"],
+      "args": ["-y", "fetchworks-mcp"],
       "env": {
         "APIFY_TOKEN": "your-apify-token"
       }
