@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fetchworks/youtube-transcripts",
+  "description": "YouTube transcripts for AI agents — get transcripts for videos, channels, and search results (segments, text, SRT, VTT) via the Fetchworks YouTube Transcript Scraper on Apify",
+  "repository": {
+    "url": "https://github.com/fetchworks/fetchworks-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://apify.com/fetchworks/youtube-transcript-scraper",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@fetchworks/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APIFY_TOKEN",
+          "description": "Apify API token (free at console.apify.com/settings/integrations). Transcript extraction is billed to your Apify account at $5 per 1,000 delivered transcripts.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
