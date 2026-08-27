@@ -1,19 +1,19 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.fetchworks/youtube-transcripts",
+  "name": "io.github.fetchworks-dev/youtube-transcripts",
   "description": "YouTube transcripts for AI agents: videos, channels, playlists, search. Timestamps, SRT, VTT.",
   "repository": {
     "url": "https://github.com/fetchworks/fetchworks-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://apify.com/fetchworks/youtube-transcript-scraper",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "fetchworks-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
