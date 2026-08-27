@@ -3,7 +3,7 @@
   "name": "io.github.fetchworks-dev/youtube-transcripts",
   "description": "YouTube transcripts for AI agents: videos, channels, playlists, search. Timestamps, SRT, VTT.",
   "repository": {
-    "url": "https://github.com/fetchworks/fetchworks-mcp",
+    "url": "https://github.com/fetchworks/mcp",
     "source": "github"
   },
   "version": "0.1.1",

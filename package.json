@@ -15,7 +15,7 @@
   "homepage": "https://apify.com/fetchworks/youtube-transcript-scraper",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fetchworks/fetchworks-mcp.git"
+    "url": "git+https://github.com/fetchworks/mcp.git"
   },
   "mcpName": "io.github.fetchworks-dev/youtube-transcripts",
   "type": "module",
