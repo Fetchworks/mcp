@@ -1,7 +1,7 @@
 {
   "name": "fetchworks-mcp",
   "version": "0.1.1",
-  "description": "MCP server for YouTube transcripts — get transcripts for videos, channels, and search results via the Fetchworks YouTube Transcript Scraper on Apify",
+  "description": "MCP server for YouTube transcripts \u2014 get transcripts for videos, channels, and search results via the Fetchworks YouTube Transcript Scraper on Apify",
   "keywords": [
     "mcp",
     "model-context-protocol",
@@ -15,7 +15,7 @@
   "homepage": "https://apify.com/fetchworks/youtube-transcript-scraper",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fetchworks/mcp.git"
+    "url": "git+https://github.com/Fetchworks/mcp.git"
   },
   "mcpName": "io.github.fetchworks-dev/youtube-transcripts",
   "type": "module",
